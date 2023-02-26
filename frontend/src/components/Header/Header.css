@@ -1,0 +1,33 @@
+.navbar
+{
+    background-color: #008f11 !important;
+    width: auto;
+    color: white !important;
+}
+.nav-cal{
+    width: auto;
+    color: white !important;
+}
+
+/* Desktop */
+@media only screen and (min-width: 992px) {
+    .navbar {
+        height: 90px;      
+    }
+    /* .remove-space {
+        float: right !important;
+        margin-left: 35rem !important;
+        color: white !important;
+        font-size: 14px !important;
+    } */
+    .nav-cal{
+        margin-left: 10px;
+    }
+}
+
+/* Phone */
+@media only screen and (max-width:320px) {
+    .nav-cal{
+        font-size: 15px !important;
+    }
+}
